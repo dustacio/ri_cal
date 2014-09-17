@@ -22,15 +22,15 @@ class RiCal::Component::TZInfoTimezone < RiCal::Component::Timezone
       @abbreviation = this_period.abbreviation
       @rdates = []
     end
-    
+
     def daylight?
       @which == "DAYLIGHT"
     end
-    
+
     def period_local_end(period)
       (period.local_end || DateTime.parse("99990101T000000")).strftime("%Y%m%dT%H%M%S")
     end
-    
+
     # This assumes a 1 hour shift which is why we use the previous period local end when
     # possible
     def period_local_start(period)
@@ -41,7 +41,6 @@ class RiCal::Component::TZInfoTimezone < RiCal::Component::Timezone
     def add_period(this_period)
       @rdates << period_local_start(this_period)
     end
-
 
     def format_rfc2445_offset(seconds) #:nodoc:
       abs_seconds = seconds.abs
@@ -69,9 +68,17 @@ class RiCal::Component::TZInfoTimezone < RiCal::Component::Timezone
     def initialize
       @dst_period = @std_period = @previous_period = nil
     end
-    
+
     def empty?
       @periods.nil? || @periods.empty?
+    end
+
+    def has_standard?
+      !@standard_period.nil?
+    end
+
+    def has_daylight?
+      !@daylight_period.nil?
     end
 
     def daylight_period(this_period, previous_period)
@@ -86,7 +93,7 @@ class RiCal::Component::TZInfoTimezone < RiCal::Component::Timezone
       @periods ||= []
       @periods << period unless @periods.include?(period)
     end
-    
+
     def add_period(this_period, force=false)
       if @previous_period || force
         if this_period.dst?
@@ -110,7 +117,7 @@ class RiCal::Component::TZInfoTimezone < RiCal::Component::Timezone
   def initialize(tzinfo_timezone) #:nodoc:
     @tzinfo_timezone = tzinfo_timezone
   end
-  
+
   # convert time from this time zone to utc time
   def local_to_utc(time, dst_ambiguity=nil)
     @tzinfo_timezone.local_to_utc(time.to_ri_cal_ruby_value, dst_ambiguity)
@@ -127,7 +134,7 @@ class RiCal::Component::TZInfoTimezone < RiCal::Component::Timezone
   end
 
   def export_local_to(export_stream, local_start, local_end) #:nodoc:
-    export_utc_to(export_stream, 
+    export_utc_to(export_stream,
                   local_to_utc(local_start.to_ri_cal_ruby_value, true),
                   local_to_utc(local_end.to_ri_cal_ruby_value, false))
   end
@@ -148,6 +155,9 @@ class RiCal::Component::TZInfoTimezone < RiCal::Component::Timezone
     while period && period.utc_start && period.utc_start < utc_end
       periods.add_period(period)
       period = period.utc_end && tzinfo_timezone.period_for_utc(period.utc_end + 1)
+    end
+    if periods.has_daylight? && !periods.has_standard?
+      periods.add_period(period)
     end
     periods.add_period(initial_period, :force) if periods.empty?
     periods.export_to(export_stream)
