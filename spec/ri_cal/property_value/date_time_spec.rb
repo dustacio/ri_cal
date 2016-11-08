@@ -366,7 +366,7 @@ END:VCALENDAR
       
       context "when the default timezone has been set to 'America/Chicago" do
         before(:each) do
-          RiCal::PropertyValue::DateTime.stub!(:default_tzid).and_return("America/Chicago")
+          RiCal::PropertyValue::DateTime.stub(:default_tzid).and_return("America/Chicago")
           @it = RiCal::PropertyValue::DateTime.convert(nil, @time)
         end
 

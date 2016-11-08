@@ -360,7 +360,7 @@ class VEntityUpdater
       ruby_out_file.puts("module RiCal")
       ruby_out_file.puts("  module Properties #:nodoc:")
       @indent = "    "
-      ruby_out_file.puts("    #- ©2009 Rick DeNatale")
+      ruby_out_file.puts("    #- 2009 Rick DeNatale")
       ruby_out_file.puts("    #- All rights reserved. Refer to the file README.txt for the license")
       ruby_out_file.puts("    #")
       ruby_out_file.puts("    # Properties::#{module_name} provides property accessing methods for the #{class_name} class")

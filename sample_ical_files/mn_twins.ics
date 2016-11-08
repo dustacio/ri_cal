@@ -1,0 +1,1412 @@
+BEGIN:VCALENDAR
+PRODID:-//MLB.com//Schedule Calendar 0.001//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:2012 Minnesota Twins Home Schedule
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120303T130500
+DTEND;TZID=America/New_York:20120303T160500
+DTSTAMP:20120806T221604Z
+UID:332106@mlb.com
+CREATED:20111130T212813Z
+DESCRIPTION:Spring Training: Tampa Bay 3 - Minnesota 7\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_03_tbamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120307T194443Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Tampa Bay 3 - Minnesota 7
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_03_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120305T190500
+DTEND;TZID=America/New_York:20120305T220500
+DTSTAMP:20120806T221604Z
+UID:332124@mlb.com
+CREATED:20111130T212816Z
+DESCRIPTION:Spring Training: Boston 10 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_05_bosmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal TV: MLBN (delay), FS-N+, MLB.TV\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120307T200743Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Boston 10 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_05_bosmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120308T130500
+DTEND;TZID=America/New_York:20120308T160500
+DTSTAMP:20120806T221604Z
+UID:332182@mlb.com
+CREATED:20111130T212824Z
+DESCRIPTION:Spring Training: Tampa Bay 1 - Minnesota 0\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_08_tbamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120416T145558Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Tampa Bay 1 - Minnesota 0
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_08_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120309T130500
+DTEND;TZID=America/New_York:20120309T160500
+DTSTAMP:20120806T221604Z
+UID:332197@mlb.com
+CREATED:20111130T212827Z
+DESCRIPTION:Spring Training: St. Louis 3 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_09_slnmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120309T211843Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: St. Louis 3 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_09_slnmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120311T130500
+DTEND;TZID=America/New_York:20120311T160500
+DTSTAMP:20120806T221604Z
+UID:332231@mlb.com
+CREATED:20111130T212831Z
+DESCRIPTION:Spring Training: NY Yankees 1 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_11_nyamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal TV: FS-N, MLBN (delay)\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120319T163547Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: NY Yankees 1 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_11_nyamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120313T130500
+DTEND;TZID=America/New_York:20120313T160500
+DTSTAMP:20120806T221604Z
+UID:332266@mlb.com
+CREATED:20111130T212836Z
+DESCRIPTION:Spring Training: Toronto 8 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_13_tormlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120416T145600Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Toronto 8 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_13_tormlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120315T130500
+DTEND;TZID=America/New_York:20120315T160500
+DTSTAMP:20120806T221604Z
+UID:332294@mlb.com
+CREATED:20111130T212840Z
+DESCRIPTION:Spring Training: Pittsburgh 17 - Minnesota 6\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_15_pitmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120514T194023Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Pittsburgh 17 - Minnesota 6
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_15_pitmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120316T130500
+DTEND;TZID=America/New_York:20120316T160500
+DTSTAMP:20120806T221604Z
+UID:332300@mlb.com
+CREATED:20111130T212841Z
+DESCRIPTION:Spring Training: Baltimore 3 - Minnesota 1\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_16_balmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120317T023628Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Baltimore 3 - Minnesota 1
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_16_balmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120318T130500
+DTEND;TZID=America/New_York:20120318T160500
+DTSTAMP:20120806T221604Z
+UID:332348@mlb.com
+CREATED:20111130T212848Z
+DESCRIPTION:Spring Training: Pittsburgh 0 - Minnesota 10\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_18_pitmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120416T145310Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Pittsburgh 0 - Minnesota 10
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_18_pitmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120322T130500
+DTEND;TZID=America/New_York:20120322T160500
+DTSTAMP:20120806T221604Z
+UID:332387@mlb.com
+CREATED:20111130T212854Z
+DESCRIPTION:Spring Training: Baltimore 11 - Minnesota 1\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_22_balmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120417T160810Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Baltimore 11 - Minnesota 1
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_22_balmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120324T150500
+DTEND;TZID=America/New_York:20120324T180500
+DTSTAMP:20120806T221604Z
+UID:332429@mlb.com
+CREATED:20111130T212900Z
+DESCRIPTION:Spring Training: Tampa Bay 4 - Minnesota 19\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_24_tbamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120324T230734Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Tampa Bay 4 - Minnesota 19
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_24_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120326T130500
+DTEND;TZID=America/New_York:20120326T160500
+DTSTAMP:20120806T221604Z
+UID:332459@mlb.com
+CREATED:20111130T212903Z
+DESCRIPTION:Spring Training: Tampa Bay 10 - Minnesota 4\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_26_tbamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal TV: FS-N, MLBN (delay)\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120326T203400Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Tampa Bay 10 - Minnesota 4
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_26_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120328T130500
+DTEND;TZID=America/New_York:20120328T160500
+DTSTAMP:20120806T221604Z
+UID:332483@mlb.com
+CREATED:20111130T212906Z
+DESCRIPTION:Spring Training: Philadelphia 7 - Minnesota 11\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_28_phimlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120416T145509Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Philadelphia 7 - Minnesota 11
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_28_phimlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120330T130500
+DTEND;TZID=America/New_York:20120330T160500
+DTSTAMP:20120806T221604Z
+UID:332505@mlb.com
+CREATED:20111130T212908Z
+DESCRIPTION:Spring Training: Boston 9 - Minnesota 7\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_30_bosmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120330T202856Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Boston 9 - Minnesota 7
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_30_bosmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120331T130500
+DTEND;TZID=America/New_York:20120331T160500
+DTSTAMP:20120806T221604Z
+UID:332530@mlb.com
+CREATED:20111130T212911Z
+DESCRIPTION:Spring Training: Pittsburgh 3 - Minnesota 15\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_31_pitmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=03&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120331T211802Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Pittsburgh 3 - Minnesota 15
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_03_31_pitmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120403T130500
+DTEND;TZID=America/New_York:20120403T160500
+DTSTAMP:20120806T221604Z
+UID:332566@mlb.com
+CREATED:20111130T212916Z
+DESCRIPTION:Spring Training: Tampa Bay 6 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_03_tbamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120406T010547Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Spring Training: Tampa Bay 6 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_03_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120404T130500
+DTEND;TZID=America/New_York:20120404T160500
+DTSTAMP:20120806T221604Z
+UID:332569@mlb.com
+CREATED:20111130T212916Z
+DESCRIPTION:Exhibition Game: Fort Myers 7 - Minnesota 8\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n
+LAST-MODIFIED:20120406T011946Z
+LOCATION:Lee County Sports Complex, Hammond County Stadium, Lee County
+SUMMARY:Exhibition Game: Fort Myers 7 - Minnesota 8
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_04_ftmafa_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120409T161000
+DTEND;TZID=America/New_York:20120409T191000
+DTSTAMP:20120806T221604Z
+UID:317780@mlb.com
+CREATED:20110908T191150Z
+DESCRIPTION:LA Angels 5 - Minnesota 1\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_09_anamlb_minmlb_1\n\nPromotions/Giveaways: \n    Home Opener/Magnet Schedule\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: MLBN, FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143620Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:LA Angels 5 - Minnesota 1
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_09_anamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120411T201000
+DTEND;TZID=America/New_York:20120411T231000
+DTSTAMP:20120806T221604Z
+UID:317804@mlb.com
+CREATED:20110908T191153Z
+DESCRIPTION:LA Angels 5 - Minnesota 6\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_11_anamlb_minmlb_1\n\nPromotions/Giveaways: \n    Magnet Schedule\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143620Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:LA Angels 5 - Minnesota 6
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_11_anamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120412T131000
+DTEND;TZID=America/New_York:20120412T161000
+DTSTAMP:20120806T221604Z
+UID:317819@mlb.com
+CREATED:20110908T191155Z
+DESCRIPTION:LA Angels 9 - Minnesota 10\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_12_anamlb_minmlb_1\n\nPromotions/Giveaways: \n    Magnet Schedule\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143620Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:LA Angels 9 - Minnesota 10
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_12_anamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120413T201000
+DTEND;TZID=America/New_York:20120413T231000
+DTSTAMP:20120806T221604Z
+UID:317842@mlb.com
+CREATED:20110908T191158Z
+DESCRIPTION:Texas 4 - Minnesota 1\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_13_texmlb_minmlb_1\n\nPromotions/Giveaways: \n    Poster Schedule\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143621Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Texas 4 - Minnesota 1
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_13_texmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120414T131000
+DTEND;TZID=America/New_York:20120414T161000
+DTSTAMP:20120806T221604Z
+UID:317857@mlb.com
+CREATED:20110908T191200Z
+DESCRIPTION:Texas 6 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_14_texmlb_minmlb_1\n\nPromotions/Giveaways: \n    Poster Schedule\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FOX\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143621Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Texas 6 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_14_texmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120415T141000
+DTEND;TZID=America/New_York:20120415T171000
+DTSTAMP:20120806T221604Z
+UID:317872@mlb.com
+CREATED:20110908T191202Z
+DESCRIPTION:Texas 4 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_15_texmlb_minmlb_1\n\nPromotions/Giveaways: \n    Poster Schedule\n    Jackie Robinson Day\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120504T191345Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Texas 4 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_15_texmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120423T201000
+DTEND;TZID=America/New_York:20120423T231000
+DTSTAMP:20120806T221604Z
+UID:317971@mlb.com
+CREATED:20110908T191215Z
+DESCRIPTION:Boston 6 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_23_bosmlb_minmlb_1\n\nPromotions/Giveaways: \n    Umbrella\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Boston 6 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_23_bosmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120424T201000
+DTEND;TZID=America/New_York:20120424T231000
+DTSTAMP:20120806T221604Z
+UID:317982@mlb.com
+CREATED:20110908T191216Z
+DESCRIPTION:Boston 11 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_24_bosmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: MLBN, FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Boston 11 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_24_bosmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120425T201000
+DTEND;TZID=America/New_York:20120425T231000
+DTSTAMP:20120806T221604Z
+UID:317997@mlb.com
+CREATED:20110908T191218Z
+DESCRIPTION:Boston 7 - Minnesota 6\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_25_bosmlb_minmlb_1\n\nPromotions/Giveaways: \n    Drawstring Backpack\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Boston 7 - Minnesota 6
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_25_bosmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120427T201000
+DTEND;TZID=America/New_York:20120427T231000
+DTSTAMP:20120806T221604Z
+UID:318024@mlb.com
+CREATED:20110908T191221Z
+DESCRIPTION:Kansas City 7 - Minnesota 6\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_27_kcamlb_minmlb_1\n\nPromotions/Giveaways: \n    Rapala Fishing Lure\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120522T142615Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City 7 - Minnesota 6
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_27_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120429T141000
+DTEND;TZID=America/New_York:20120429T171000
+DTSTAMP:20120806T221604Z
+UID:318054@mlb.com
+CREATED:20110908T191224Z
+DESCRIPTION:Kansas City 4 - Minnesota 7\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_29_kcamlb_minmlb_1\n\nPromotions/Giveaways: \n    Ben Revere Bat\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=04&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120522T142615Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City 4 - Minnesota 7
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_04_29_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120507T201000
+DTEND;TZID=America/New_York:20120507T231000
+DTSTAMP:20120806T221604Z
+UID:318159@mlb.com
+CREATED:20110908T191237Z
+DESCRIPTION:LA Angels 8 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_07_anamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143620Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:LA Angels 8 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_07_anamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120508T201000
+DTEND;TZID=America/New_York:20120508T231000
+DTSTAMP:20120806T221604Z
+UID:318171@mlb.com
+CREATED:20110908T191238Z
+DESCRIPTION:LA Angels 0 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_08_anamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143620Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:LA Angels 0 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_08_anamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120509T201000
+DTEND;TZID=America/New_York:20120509T231000
+DTSTAMP:20120806T221604Z
+UID:318186@mlb.com
+CREATED:20110908T191240Z
+DESCRIPTION:LA Angels 6 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_09_anamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143620Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:LA Angels 6 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_09_anamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120510T201000
+DTEND;TZID=America/New_York:20120510T231000
+DTSTAMP:20120806T221604Z
+UID:318205@mlb.com
+CREATED:20110908T191242Z
+DESCRIPTION:Toronto 6 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_10_tormlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143621Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Toronto 6 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_10_tormlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120511T201000
+DTEND;TZID=America/New_York:20120511T231000
+DTSTAMP:20120806T221604Z
+UID:318220@mlb.com
+CREATED:20110908T191243Z
+DESCRIPTION:Toronto 6 - Minnesota 7\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_11_tormlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120524T132652Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Toronto 6 - Minnesota 7
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_11_tormlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120512T191000
+DTEND;TZID=America/New_York:20120512T221000
+DTSTAMP:20120806T221604Z
+UID:318235@mlb.com
+CREATED:20110908T191245Z
+DESCRIPTION:Toronto 2 - Minnesota 1\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_12_tormlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins Cap\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143621Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Toronto 2 - Minnesota 1
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_12_tormlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120513T141000
+DTEND;TZID=America/New_York:20120513T171000
+DTSTAMP:20120806T221604Z
+UID:318250@mlb.com
+CREATED:20110908T191247Z
+DESCRIPTION:Toronto 3 - Minnesota 4\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_13_tormlb_minmlb_1\n\nPromotions/Giveaways: \n    Mother’s Day Fashion Scarf\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143621Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Toronto 3 - Minnesota 4
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_13_tormlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120514T201000
+DTEND;TZID=America/New_York:20120514T231000
+DTSTAMP:20120806T221604Z
+UID:318255@mlb.com
+CREATED:20110908T191247Z
+DESCRIPTION:Cleveland 5 - Minnesota 4\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_14_clemlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143621Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland 5 - Minnesota 4
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_14_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120515T131000
+DTEND;TZID=America/New_York:20120515T161000
+DTSTAMP:20120806T221604Z
+UID:318270@mlb.com
+CREATED:20110908T191249Z
+DESCRIPTION:Cleveland 5 - Minnesota 0\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_15_clemlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland 5 - Minnesota 0
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_15_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120525T201000
+DTEND;TZID=America/New_York:20120525T231000
+DTSTAMP:20120806T221604Z
+UID:318411@mlb.com
+CREATED:20110908T191304Z
+DESCRIPTION:Detroit 10 - Minnesota 6\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_25_detmlb_minmlb_1\n\nPromotions/Giveaways: \n    Fireworks\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120526T095111Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit 10 - Minnesota 6
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_25_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120526T141000
+DTEND;TZID=America/New_York:20120526T171000
+DTSTAMP:20120806T221604Z
+UID:318426@mlb.com
+CREATED:20110908T191306Z
+DESCRIPTION:Detroit 6 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_26_detmlb_minmlb_1\n\nPromotions/Giveaways: \n    Cowboy Hat\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: MLBN, FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120527T131515Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit 6 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_26_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120527T141000
+DTEND;TZID=America/New_York:20120527T171000
+DTSTAMP:20120806T221604Z
+UID:318441@mlb.com
+CREATED:20110908T191307Z
+DESCRIPTION:Detroit 4 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_27_detmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120528T100219Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit 4 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_27_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120528T141000
+DTEND;TZID=America/New_York:20120528T171000
+DTSTAMP:20120806T221604Z
+UID:318461@mlb.com
+CREATED:20110908T191309Z
+DESCRIPTION:Oakland 4 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_28_oakmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120529T172724Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Oakland 4 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_28_oakmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120529T201000
+DTEND;TZID=America/New_York:20120529T231000
+DTSTAMP:20120806T221604Z
+UID:318476@mlb.com
+CREATED:20110908T191311Z
+DESCRIPTION:Oakland 2 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_29_oakmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120530T144551Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Oakland 2 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_29_oakmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120530T131000
+DTEND;TZID=America/New_York:20120530T161000
+DTSTAMP:20120806T221604Z
+UID:318491@mlb.com
+CREATED:20110908T191314Z
+DESCRIPTION:Oakland 0 - Minnesota 4\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_30_oakmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=05&y=2012\n\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120531T061734Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Oakland 0 - Minnesota 4
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_05_30_oakmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120608T201000
+DTEND;TZID=America/New_York:20120608T231000
+DTSTAMP:20120806T221604Z
+UID:318594@mlb.com
+CREATED:20110908T191325Z
+DESCRIPTION:Chi Cubs 7 - Minnesota 8\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_08_chnmlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins vs. Cubs\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120803T200404Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi Cubs 7 - Minnesota 8
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_08_chnmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120609T141000
+DTEND;TZID=America/New_York:20120609T171000
+DTSTAMP:20120806T221604Z
+UID:318609@mlb.com
+CREATED:20110908T191327Z
+DESCRIPTION:Chi Cubs 3 - Minnesota 11\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_09_chnmlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins vs. Cubs\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120610T131946Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi Cubs 3 - Minnesota 11
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_09_chnmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120610T141000
+DTEND;TZID=America/New_York:20120610T171000
+DTSTAMP:20120806T221604Z
+UID:318624@mlb.com
+CREATED:20110908T191328Z
+DESCRIPTION:Chi Cubs 8 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_10_chnmlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins vs. Cubs\n    Hope Week\n    Joe Mauer Kids Jersey\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120613T192948Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi Cubs 8 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_10_chnmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120612T201000
+DTEND;TZID=America/New_York:20120612T231000
+DTSTAMP:20120806T221604Z
+UID:318653@mlb.com
+CREATED:20110908T191331Z
+DESCRIPTION:Philadelphia 7 - Minnesota 11\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_12_phimlb_minmlb_1\n\nPromotions/Giveaways: \n    Hope Week\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120613T170811Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Philadelphia 7 - Minnesota 11
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_12_phimlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120613T201000
+DTEND;TZID=America/New_York:20120613T231000
+DTSTAMP:20120806T221604Z
+UID:318668@mlb.com
+CREATED:20110908T191333Z
+DESCRIPTION:Philadelphia 9 - Minnesota 8\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_13_phimlb_minmlb_1\n\nPromotions/Giveaways: \n    Hope Week\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120614T152156Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Philadelphia 9 - Minnesota 8
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_13_phimlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120614T201000
+DTEND;TZID=America/New_York:20120614T231000
+DTSTAMP:20120806T221604Z
+UID:318680@mlb.com
+CREATED:20110908T191334Z
+DESCRIPTION:Philadelphia 6 - Minnesota 1\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_14_phimlb_minmlb_1\n\nPromotions/Giveaways: \n    Hope Week\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120615T092046Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Philadelphia 6 - Minnesota 1
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_14_phimlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120615T201000
+DTEND;TZID=America/New_York:20120615T231000
+DTSTAMP:20120806T221604Z
+UID:318692@mlb.com
+CREATED:20110908T191335Z
+DESCRIPTION:Milwaukee 5 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_15_milmlb_minmlb_1\n\nPromotions/Giveaways: \n    Hope Week\n    Twins vs. Milwaukee\n    Bert Blyleven Fan \n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120616T070406Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Milwaukee 5 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_15_milmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120616T141000
+DTEND;TZID=America/New_York:20120616T171000
+DTSTAMP:20120806T221604Z
+UID:318707@mlb.com
+CREATED:20110908T191337Z
+DESCRIPTION:Milwaukee 6 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_16_milmlb_minmlb_1\n\nPromotions/Giveaways: \n    Hope Week\n    Twins vs. Milwaukee\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120620T111612Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Milwaukee 6 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_16_milmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120617T141000
+DTEND;TZID=America/New_York:20120617T171000
+DTSTAMP:20120806T221604Z
+UID:318722@mlb.com
+CREATED:20110908T191339Z
+DESCRIPTION:Milwaukee 4 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_17_milmlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins vs. Milwaukee\n    Father’s Day Golf Club Head Cover\n    Mascot Softball\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120618T113409Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Milwaukee 4 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_17_milmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120625T201000
+DTEND;TZID=America/New_York:20120625T231000
+DTSTAMP:20120806T221604Z
+UID:318818@mlb.com
+CREATED:20110908T191349Z
+DESCRIPTION:Chi White Sox 1 - Minnesota 4\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_25_chamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120626T060314Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox 1 - Minnesota 4
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_25_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120626T201000
+DTEND;TZID=America/New_York:20120626T231000
+DTSTAMP:20120806T221604Z
+UID:318832@mlb.com
+CREATED:20110908T191351Z
+DESCRIPTION:Chi White Sox 3 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_26_chamlb_minmlb_1\n\nPromotions/Giveaways: \n    Energy Efficient Light Bulb\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N, MLBN\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120627T221738Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox 3 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_26_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120627T131000
+DTEND;TZID=America/New_York:20120627T161000
+DTSTAMP:20120806T221604Z
+UID:318847@mlb.com
+CREATED:20110908T191352Z
+DESCRIPTION:Chi White Sox 12 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_27_chamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120628T154534Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox 12 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_27_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120629T201000
+DTEND;TZID=America/New_York:20120629T231000
+DTSTAMP:20120806T221604Z
+UID:318880@mlb.com
+CREATED:20110908T191356Z
+DESCRIPTION:Kansas City 4 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_29_kcamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120703T191205Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City 4 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_29_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120630T191000
+DTEND;TZID=America/New_York:20120630T221000
+DTSTAMP:20120806T221604Z
+UID:318895@mlb.com
+CREATED:20110908T191358Z
+DESCRIPTION:Kansas City 1 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_30_kcamlb_minmlb_2\n\nPromotions/Giveaways: \n    Turn Back the Clock Game\n    Minneapolis Millers Pennant\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FOX\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120701T103732Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City 1 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_30_kcamlb_minmlb_2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120630T131000
+DTEND;TZID=America/New_York:20120630T161000
+DTSTAMP:20120806T221604Z
+UID:318039@mlb.com
+CREATED:20110908T191223Z
+DESCRIPTION:Kansas City 2 - Minnesota 7\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_30_kcamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=06&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120704T114631Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City 2 - Minnesota 7
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_06_30_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120701T141000
+DTEND;TZID=America/New_York:20120701T171000
+DTSTAMP:20120806T221604Z
+UID:318910@mlb.com
+CREATED:20110908T191359Z
+DESCRIPTION:Kansas City 8 - Minnesota 10\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_01_kcamlb_minmlb_1\n\nPromotions/Giveaways: \n    Armed Services Appreciation Day\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120702T064507Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City 8 - Minnesota 10
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_01_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120710T200000
+DTEND;TZID=America/New_York:20120710T230000
+DTSTAMP:20120806T221604Z
+UID:319018@mlb.com
+CREATED:20110908T191411Z
+DESCRIPTION:MLB All-Star Game: NL All-Stars 8 - AL All-Stars 0\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_10_nasmlb_aasmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n
+LAST-MODIFIED:20120711T071519Z
+LOCATION:Kauffman Stadium, Kansas City
+SUMMARY:MLB All-Star Game: NL All-Stars 8 - AL All-Stars 0
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_10_nasmlb_aasmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120713T201000
+DTEND;TZID=America/New_York:20120713T231000
+DTSTAMP:20120806T221604Z
+UID:319027@mlb.com
+CREATED:20110908T191412Z
+DESCRIPTION:Oakland 6 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_13_oakmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120714T074444Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Oakland 6 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_13_oakmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120714T191000
+DTEND;TZID=America/New_York:20120714T221000
+DTSTAMP:20120806T221604Z
+UID:319042@mlb.com
+CREATED:20110908T191414Z
+DESCRIPTION:Oakland 9 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_14_oakmlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins HOF Induction Camilo Pascual\n    Twins HOF Pin\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120715T111232Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Oakland 9 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_14_oakmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120715T141000
+DTEND;TZID=America/New_York:20120715T171000
+DTSTAMP:20120806T221604Z
+UID:319057@mlb.com
+CREATED:20110908T191415Z
+DESCRIPTION:Oakland 9 - Minnesota 4\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_15_oakmlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins Cap\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120716T010311Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Oakland 9 - Minnesota 4
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_15_oakmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120716T201000
+DTEND;TZID=America/New_York:20120716T231000
+DTSTAMP:20120806T221604Z
+UID:319066@mlb.com
+CREATED:20110908T191416Z
+DESCRIPTION:Baltimore 7 - Minnesota 19\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_16_balmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120723T140011Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Baltimore 7 - Minnesota 19
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_16_balmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120717T201000
+DTEND;TZID=America/New_York:20120717T231000
+DTSTAMP:20120806T221604Z
+UID:319079@mlb.com
+CREATED:20110908T191418Z
+DESCRIPTION:Baltimore 4 - Minnesota 6\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_17_balmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120720T024539Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Baltimore 4 - Minnesota 6
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_17_balmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120718T201000
+DTEND;TZID=America/New_York:20120718T231000
+DTSTAMP:20120806T221604Z
+UID:319094@mlb.com
+CREATED:20110908T191419Z
+DESCRIPTION:Baltimore 2 - Minnesota 1\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_18_balmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120719T140433Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Baltimore 2 - Minnesota 1
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_18_balmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120719T131000
+DTEND;TZID=America/New_York:20120719T161000
+DTSTAMP:20120806T221604Z
+UID:319109@mlb.com
+CREATED:20110908T191421Z
+DESCRIPTION:Baltimore 4 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_19_balmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120720T060338Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Baltimore 4 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_19_balmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120727T201000
+DTEND;TZID=America/New_York:20120727T231000
+DTSTAMP:20120806T221604Z
+UID:319217@mlb.com
+CREATED:20110908T191433Z
+DESCRIPTION:Cleveland 0 - Minnesota 11\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_27_clemlb_minmlb_1\n\nPromotions/Giveaways: \n    Fireworks\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120728T171343Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland 0 - Minnesota 11
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_27_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120728T191000
+DTEND;TZID=America/New_York:20120728T221000
+DTSTAMP:20120806T221604Z
+UID:319232@mlb.com
+CREATED:20110908T191435Z
+DESCRIPTION:Cleveland 5 - Minnesota 12\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_28_clemlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120731T124822Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland 5 - Minnesota 12
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_28_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120729T141000
+DTEND;TZID=America/New_York:20120729T171000
+DTSTAMP:20120806T221604Z
+UID:319247@mlb.com
+CREATED:20110908T191436Z
+DESCRIPTION:Cleveland 1 - Minnesota 5\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_29_clemlb_minmlb_1\n\nPromotions/Giveaways: \n    Bike and Walk to the Ballpark\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120730T144234Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland 1 - Minnesota 5
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_29_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120730T201000
+DTEND;TZID=America/New_York:20120730T231000
+DTSTAMP:20120806T221604Z
+UID:319262@mlb.com
+CREATED:20110908T191438Z
+DESCRIPTION:Chi White Sox 6 - Minnesota 7\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_30_chamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120731T161316Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox 6 - Minnesota 7
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_30_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120731T201000
+DTEND;TZID=America/New_York:20120731T231000
+DTSTAMP:20120806T221604Z
+UID:319274@mlb.com
+CREATED:20110908T191439Z
+DESCRIPTION:Chi White Sox 4 - Minnesota 3\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_31_chamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=07&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120801T104709Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox 4 - Minnesota 3
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_07_31_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120801T131000
+DTEND;TZID=America/New_York:20120801T161000
+DTSTAMP:20120806T221604Z
+UID:319289@mlb.com
+CREATED:20110908T191441Z
+DESCRIPTION:Chi White Sox 3 - Minnesota 2\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_01_chamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: MLBN, FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120802T172908Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox 3 - Minnesota 2
+TRANSP:TRANSPARENT
+SEQUENCE:2
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_01_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120810T201000
+DTEND;TZID=America/New_York:20120810T231000
+DTSTAMP:20120806T221604Z
+UID:319420@mlb.com
+CREATED:20110908T191455Z
+DESCRIPTION:Tampa Bay at Minnesota\n\nProbable Starters - \nHome: De Vries, Cole\nVisiting: Hellickson, Jeremy\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_10_tbamlb_minmlb_1\n\nPromotions/Giveaways: \n    Fireworks\n    Joe Mauer Sideburns\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120806T014456Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Tampa Bay at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_10_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120811T191000
+DTEND;TZID=America/New_York:20120811T221000
+DTSTAMP:20120806T221604Z
+UID:319435@mlb.com
+CREATED:20110908T191457Z
+DESCRIPTION:Tampa Bay at Minnesota\n\nProbable Starters - \nHome: Blackburn, Nick\nVisiting: Price, David\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_11_tbamlb_minmlb_1\n\nPromotions/Giveaways: \n    Back to School Weekend\n    Book Covers\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120806T014456Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Tampa Bay at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_11_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120812T141000
+DTEND;TZID=America/New_York:20120812T171000
+DTSTAMP:20120806T221604Z
+UID:319450@mlb.com
+CREATED:20110908T191458Z
+DESCRIPTION:Tampa Bay at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_12_tbamlb_minmlb_1\n\nPromotions/Giveaways: \n    Back to School Weekend\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120806T014456Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Tampa Bay at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_12_tbamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120813T201000
+DTEND;TZID=America/New_York:20120813T231000
+DTSTAMP:20120806T221604Z
+UID:319454@mlb.com
+CREATED:20110908T191459Z
+DESCRIPTION:Detroit at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_13_detmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120806T014456Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_13_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120814T201000
+DTEND;TZID=America/New_York:20120814T231000
+DTSTAMP:20120806T221604Z
+UID:319467@mlb.com
+CREATED:20110908T191500Z
+DESCRIPTION:Detroit at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_14_detmlb_minmlb_1\n\nPromotions/Giveaways: \n    Twins Beach Towel\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143619Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_14_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120815T131000
+DTEND;TZID=America/New_York:20120815T161000
+DTSTAMP:20120806T221604Z
+UID:319482@mlb.com
+CREATED:20110908T191502Z
+DESCRIPTION:Detroit at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_15_detmlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143620Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_15_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120827T201000
+DTEND;TZID=America/New_York:20120827T231000
+DTSTAMP:20120806T221604Z
+UID:319651@mlb.com
+CREATED:20110908T191522Z
+DESCRIPTION:Seattle at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_27_seamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Seattle at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_27_seamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120828T201000
+DTEND;TZID=America/New_York:20120828T231000
+DTSTAMP:20120806T221604Z
+UID:319664@mlb.com
+CREATED:20110908T191524Z
+DESCRIPTION:Seattle at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_28_seamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Seattle at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_28_seamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120829T201000
+DTEND;TZID=America/New_York:20120829T231000
+DTSTAMP:20120806T221604Z
+UID:319679@mlb.com
+CREATED:20110908T191525Z
+DESCRIPTION:Seattle at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_29_seamlb_minmlb_1\n\nPromotions/Giveaways: \n    Celebrate Diversity\n    This Is Twins Territory Mug\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Seattle at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_29_seamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120830T131000
+DTEND;TZID=America/New_York:20120830T161000
+DTSTAMP:20120806T221604Z
+UID:319692@mlb.com
+CREATED:20110908T191527Z
+DESCRIPTION:Seattle at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_30_seamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=08&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143622Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Seattle at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_08_30_seamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120907T201000
+DTEND;TZID=America/New_York:20120907T231000
+DTSTAMP:20120806T221604Z
+UID:319794@mlb.com
+CREATED:20110908T191538Z
+DESCRIPTION:Cleveland at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_07_clemlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_07_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120908T191000
+DTEND;TZID=America/New_York:20120908T221000
+DTSTAMP:20120806T221604Z
+UID:319809@mlb.com
+CREATED:20110908T191540Z
+DESCRIPTION:Cleveland at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_08_clemlb_minmlb_1\n\nPromotions/Giveaways: \n    Tom Kelly Day\n    Tom Kelly Day Commemorative Oar\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_08_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120909T141000
+DTEND;TZID=America/New_York:20120909T171000
+DTSTAMP:20120806T221604Z
+UID:319824@mlb.com
+CREATED:20110908T191542Z
+DESCRIPTION:Cleveland at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_09_clemlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_09_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120910T201000
+DTEND;TZID=America/New_York:20120910T231000
+DTSTAMP:20120806T221604Z
+UID:319838@mlb.com
+CREATED:20110908T191543Z
+DESCRIPTION:Cleveland at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_10_clemlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Cleveland at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_10_clemlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120911T201000
+DTEND;TZID=America/New_York:20120911T231000
+DTSTAMP:20120806T221604Z
+UID:319852@mlb.com
+CREATED:20110908T191545Z
+DESCRIPTION:Kansas City at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_11_kcamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_11_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120912T201000
+DTEND;TZID=America/New_York:20120912T231000
+DTSTAMP:20120806T221604Z
+UID:319867@mlb.com
+CREATED:20110908T191546Z
+DESCRIPTION:Kansas City at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_12_kcamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_12_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120913T201000
+DTEND;TZID=America/New_York:20120913T231000
+DTSTAMP:20120806T221604Z
+UID:319879@mlb.com
+CREATED:20110908T191548Z
+DESCRIPTION:Kansas City at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_13_kcamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Kansas City at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_13_kcamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120914T201000
+DTEND;TZID=America/New_York:20120914T231000
+DTSTAMP:20120806T221604Z
+UID:319889@mlb.com
+CREATED:20110908T191549Z
+DESCRIPTION:Chi White Sox at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_14_chamlb_minmlb_1\n\nPromotions/Giveaways: \n    Outdoor Bomber Cap\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_14_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120915T131000
+DTEND;TZID=America/New_York:20120915T161000
+DTSTAMP:20120806T221604Z
+UID:319904@mlb.com
+CREATED:20110908T191550Z
+DESCRIPTION:Chi White Sox at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_15_chamlb_minmlb_1\n\nPromotions/Giveaways: \n    Roberto Clemente Day\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_15_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120916T141000
+DTEND;TZID=America/New_York:20120916T171000
+DTSTAMP:20120806T221604Z
+UID:319919@mlb.com
+CREATED:20110908T191553Z
+DESCRIPTION:Chi White Sox at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_16_chamlb_minmlb_1\n\nPromotions/Giveaways: \n    Energy Efficient Light Bulb\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Chi White Sox at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_16_chamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120924T201000
+DTEND;TZID=America/New_York:20120924T231000
+DTSTAMP:20120806T221604Z
+UID:320027@mlb.com
+CREATED:20110908T191604Z
+DESCRIPTION:NY Yankees at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_24_nyamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:NY Yankees at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_24_nyamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120925T201000
+DTEND;TZID=America/New_York:20120925T231000
+DTSTAMP:20120806T221604Z
+UID:320039@mlb.com
+CREATED:20110908T191606Z
+DESCRIPTION:NY Yankees at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_25_nyamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:NY Yankees at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_25_nyamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120926T131000
+DTEND;TZID=America/New_York:20120926T161000
+DTSTAMP:20120806T221604Z
+UID:320054@mlb.com
+CREATED:20110908T191607Z
+DESCRIPTION:NY Yankees at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_26_nyamlb_minmlb_1\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:NY Yankees at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_26_nyamlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120928T201000
+DTEND;TZID=America/New_York:20120928T231000
+DTSTAMP:20120806T221604Z
+UID:320079@mlb.com
+CREATED:20110908T191610Z
+DESCRIPTION:Detroit at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_28_detmlb_minmlb_1\n\nPromotions/Giveaways: \n    Fan Appreciation Weekend\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_28_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120929T131000
+DTEND;TZID=America/New_York:20120929T161000
+DTSTAMP:20120806T221604Z
+UID:320094@mlb.com
+CREATED:20110908T191612Z
+DESCRIPTION:Detroit at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_29_detmlb_minmlb_1\n\nPromotions/Giveaways: \n    Fan Appreciation Weekend\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_29_detmlb_minmlb_1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20120930T141000
+DTEND;TZID=America/New_York:20120930T171000
+DTSTAMP:20120806T221604Z
+UID:320109@mlb.com
+CREATED:20110908T191613Z
+DESCRIPTION:Detroit at Minnesota\n\nClick below for game previews, wraps and boxscores plus video, tickets, stats, gameday and more!\nhttp://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_30_detmlb_minmlb_1\n\nPromotions/Giveaways: \n    Kids Appreciation Day\n\nWatch or Listen with MLB.TV: http://mlb.mlb.com/schedule/index.jsp?c_id=min&m=09&y=2012\n\nLocal TV: FS-N\nLocal Radio: BOB FM, 1500 ESPN
+LAST-MODIFIED:20120521T143623Z
+LOCATION:Target Field, Minneapolis
+SUMMARY:Detroit at Minnesota
+TRANSP:TRANSPARENT
+SEQUENCE:0
+URL:http://mlb.mlb.com/mlb/gameday/index.jsp?gid=2012_09_30_detmlb_minmlb_1
+END:VEVENT
+END:VCALENDAR

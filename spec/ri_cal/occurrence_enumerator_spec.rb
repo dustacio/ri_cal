@@ -4,7 +4,7 @@
 require File.join(File.dirname(__FILE__), %w[.. spec_helper.rb])
 
 def mock_enumerator(name, next_occurrence)
-  mock(name, :next_occurrence => next_occurrence, :bounded? => true, :empty? => false)
+  double(name, :next_occurrence => next_occurrence, :bounded? => true, :empty? => false)
 end
 
 # Note that this is more of a functional spec
@@ -38,7 +38,6 @@ TEXT
 BEGIN:VEVENT
 DTSTART:#{start}
 DTEND:#{start.gsub("T09","T10")}
-RECURRENCE-ID:#{start}
 END:VEVENT
 TEXT
           RiCal.parse_string(src).first
@@ -356,7 +355,7 @@ TEXT
       end
 
       it "should produce events whose dtstarts are all dates" do
-        @occurrences.all? {|o| o.dtstart.class == ::Date}.should be_true
+        @occurrences.all? {|o| o.dtstart.class == ::Date}.should be_truthy
       end
 
       it "should produce the right dtend values" do
@@ -372,7 +371,7 @@ TEXT
       end
 
       it "should produce events whose dtstends are all dates" do
-        @occurrences.all? {|o| o.dtend.class == ::Date}.should be_true
+        @occurrences.all? {|o| o.dtend.class == ::Date}.should be_truthy
       end
     end
     context "bounded? bug" do
@@ -478,8 +477,8 @@ describe RiCal::OccurrenceEnumerator::OccurrenceMerger do
 
     describe "with a single rrule" do
       before(:each) do
-        @component = mock("component", :dtstart => :dtstart_value)
-        @rrule = mock("rrule", :enumerator => :rrule_enumerator)
+        @component = double("component", :dtstart => :dtstart_value)
+        @rrule = double("rrule", :enumerator => :rrule_enumerator)
       end
 
       it "should return the enumerator the rrule" do
@@ -494,11 +493,11 @@ describe RiCal::OccurrenceEnumerator::OccurrenceMerger do
 
     describe "with multiple rrules" do
       before(:each) do
-        @component = mock("component", :dtstart => :dtstart_value)
+        @component = double("component", :dtstart => :dtstart_value)
         @enum1 = mock_enumerator("rrule_enumerator1", :occ1)
         @enum2 = mock_enumerator("rrule_enumerator2", :occ2)
-        @rrule1 = mock("rrule", :enumerator => @enum1)
-        @rrule2 = mock("rrule", :enumerator => @enum2)
+        @rrule1 = double("rrule", :enumerator => @enum1)
+        @rrule2 = double("rrule", :enumerator => @enum2)
       end
 
       it "should return an instance of RiCal::OccurrenceEnumerator::OccurrenceMerger" do
@@ -528,8 +527,8 @@ describe RiCal::OccurrenceEnumerator::OccurrenceMerger do
       before(:each) do
         @enum1 = mock_enumerator("rrule_enumerator1",3)
         @enum2 = mock_enumerator("rrule_enumerator2", 2)
-        @rrule1 = mock("rrule", :enumerator => @enum1)
-        @rrule2 = mock("rrule", :enumerator => @enum2)
+        @rrule1 = double("rrule", :enumerator => @enum1)
+        @rrule2 = double("rrule", :enumerator => @enum2)
         @it = @merger.new(0, [@rrule1, @rrule2])
       end
 
@@ -548,7 +547,7 @@ describe RiCal::OccurrenceEnumerator::OccurrenceMerger do
       end
 
       it "should properly update the next array" do
-        @enum2.stub!(:next_occurrence).and_return(4)
+        @enum2.stub(:next_occurrence).and_return(4)
         @it.next_occurrence
         @it.nexts.should == [3, 4]
       end
@@ -558,8 +557,8 @@ describe RiCal::OccurrenceEnumerator::OccurrenceMerger do
       before(:each) do
         @enum1 = mock_enumerator("rrule_enumerator1", 2)
         @enum2 = mock_enumerator("rrule_enumerator2", 2)
-        @rrule1 = mock("rrule", :enumerator => @enum1)
-        @rrule2 = mock("rrule", :enumerator => @enum2)
+        @rrule1 = double("rrule", :enumerator => @enum1)
+        @rrule2 = double("rrule", :enumerator => @enum2)
         @it = @merger.new(0, [@rrule1, @rrule2])
       end
 
@@ -574,8 +573,8 @@ describe RiCal::OccurrenceEnumerator::OccurrenceMerger do
       end
 
       it "should properly update the next array" do
-        @enum1.stub!(:next_occurrence).and_return(5)
-        @enum2.stub!(:next_occurrence).and_return(4)
+        @enum1.stub(:next_occurrence).and_return(5)
+        @enum2.stub(:next_occurrence).and_return(4)
         @it.next_occurrence
         @it.nexts.should == [5, 4]
       end
@@ -586,8 +585,8 @@ describe RiCal::OccurrenceEnumerator::OccurrenceMerger do
       before(:each) do
         @enum1 = mock_enumerator("rrule_enumerator1", nil)
         @enum2 = mock_enumerator("rrule_enumerator2", nil)
-        @rrule1 = mock("rrule", :enumerator => @enum1)
-        @rrule2 = mock("rrule", :enumerator => @enum2)
+        @rrule1 = double("rrule", :enumerator => @enum1)
+        @rrule2 = double("rrule", :enumerator => @enum2)
         @it = @merger.new(0, [@rrule1, @rrule2])
       end
 

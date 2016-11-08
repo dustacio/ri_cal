@@ -415,7 +415,7 @@ describe RiCal::PropertyValue::RecurrenceRule do
           RiCal.debug = debug
           rrule = RiCal::PropertyValue::RecurrenceRule.new(nil, :value => rrule_string)
           default_start_time = RiCal::PropertyValue::DateTime.new(nil, :value => dtstart_string, :tzid => tzid)
-          @enum = rrule.enumerator(mock("EventValue", :default_start_time => default_start_time, :default_duration => nil))
+          @enum = rrule.enumerator(double("EventValue", :default_start_time => default_start_time, :default_duration => nil))
           @expectations = (expectation.map {|str| RiCal::PropertyValue::DateTime.new(nil, :value => str.gsub(/E.T$/,''), :tzid => tzid)})
         end
         

@@ -39,13 +39,13 @@ describe RiCal::PropertyValue::OccurrenceList do
 
     context "with a tzid and a single datetime" do
       before(:each) do
-        timezone = mock("Timezone",
+        timezone = double("Timezone",
           :rational_utc_offset => Rational(-5, 24),
           :local_to_utc => RiCal::PropertyValue.date_or_date_time(nil, :value => "19620220T194739"),
           :name => 'America/New_York'
           )
 
-        timezone_finder = mock("tz_finder", :find_timezone => timezone, :default_tzid => "UTC", :tz_info_source? => true)
+        timezone_finder = double("tz_finder", :find_timezone => timezone, :default_tzid => "UTC", :tz_info_source? => true)
         @it = RiCal::PropertyValue::OccurrenceList.convert(timezone_finder, 'America/New_York', "19620220T144739")
       end
 

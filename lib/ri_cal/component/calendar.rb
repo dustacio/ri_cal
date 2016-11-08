@@ -4,7 +4,9 @@ module RiCal
     #
     # to see the property accessing methods for this class see the RiCal::Properties::Calendar module
     class Calendar < Component
+      include RiCal::CalendarOccurrences
       include RiCal::Properties::Calendar
+      
       attr_reader :tz_source #:nodoc:
 
       def initialize(parent=nil,entity_name = nil, &init_block) #:nodoc:

@@ -80,12 +80,12 @@ describe RiCal::PropertyValue do
       
       describe "FORM #3 date with local time and time zone reference p 36" do
         before(:each) do
-          timezone = mock("Timezone", 
+          timezone = double("Timezone", 
             :rational_utc_offset => Rational(-4, 24), 
             :local_to_utc => RiCal::PropertyValue.date_or_date_time(nil, :value => "19970714T163456Z"),
             :name => 'US-Eastern'
             )
-          timezone_finder = mock("tz_finder", :find_timezone => timezone)
+          timezone_finder = double("tz_finder", :find_timezone => timezone)
           @prop = RiCal::PropertyValue.date_or_date_time(timezone_finder, :value => "19970714T123456", :params => {'TZID' => 'US-Eastern'})
         end
 

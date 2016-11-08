@@ -1,10 +1,10 @@
-#- ©2009 Rick DeNatale, All rights reserved. Refer to the file README.txt for the license
+#- 2009 Rick DeNatale, All rights reserved. Refer to the file README.txt for the license
+require 'spec_helper'
 
-require File.join(File.dirname(__FILE__), %w[.. spec_helper])
-
-describe "http://rick_denatale.lighthouseapp.com/projects/30941/tickets/17" do
-  it "should parse this" do
-    RiCal.parse_string(<<-ENDCAL)
+describe 'bugreports' do
+  describe "http://rick_denatale.lighthouseapp.com/projects/30941/tickets/17" do
+    it "should parse this" do
+      RiCal.parse_string(<<-ENDCAL)
 BEGIN:VCALENDAR
 PRODID:-//Google Inc//Google Calendar 70.9054//EN
 VERSION:2.0
@@ -78,26 +78,26 @@ ATTACH;VALUE=URI:Basso
 END:VALARM
 END:VEVENT
 END:VCALENDAR
-ENDCAL
-  end
-end
-
-describe "http://rick_denatale.lighthouseapp.com/projects/30941/tickets/18" do
-  it "should handle a subcomponent" do
-    event = RiCal.Event do |evt|
-      evt.alarm do |alarm|
-        alarm.trigger = "-PT5M"
-        alarm.action = 'AUDIO'
-      end
+      ENDCAL
     end
-
-    lambda {event.export}.should_not raise_error
   end
-end
 
-describe "http://rick_denatale.lighthouseapp.com/projects/30941/tickets/19" do
-  before(:each) do
-    cals = RiCal.parse_string(<<-ENDCAL)
+  describe "http://rick_denatale.lighthouseapp.com/projects/30941/tickets/18" do
+    it "should handle a subcomponent" do
+      event = RiCal.Event do |evt|
+        evt.alarm do |alarm|
+          alarm.trigger = "-PT5M"
+          alarm.action = 'AUDIO'
+        end
+      end
+
+      lambda {event.export}.should_not raise_error
+    end
+  end
+
+  describe "http://rick_denatale.lighthouseapp.com/projects/30941/tickets/19" do
+    before(:each) do
+      cals = RiCal.parse_string <<-ENDCAL
 BEGIN:VCALENDAR
 METHOD:REQUEST
 PRODID:Microsoft CDO for Microsoft Exchange
@@ -126,19 +126,19 @@ DTEND;TZID="(GMT-05.00) Eastern Time (US & Canada)":20090804T133000
 DESCRIPTION:Some event
 END:VEVENT
 END:VCALENDAR
-ENDCAL
+      ENDCAL
 
-    @event = cals.first.events.first
+      @event = cals.first.events.first
+    end
+
+    it "not raise an error accessing DTSTART" do
+      lambda {@event.dtstart}.should_not raise_error
+    end
   end
 
-  it "not raise an error accessing DTSTART" do
-    lambda {@event.dtstart}.should_not raise_error
-  end
-end
-
-describe "freebusy problem" do
-  before(:each) do
-    cal = RiCal.parse_string(<<ENDCAL)
+  describe "freebusy problem" do
+    before(:each) do
+      cal = RiCal.parse_string <<-ENDCAL
 BEGIN:VCALENDAR
 METHOD:PUBLISH
 VERSION:2.0
@@ -153,7 +153,7 @@ FREEBUSY;FBTYPE=BUSY:20090705T200417Z/20090707T050000Z
 FREEBUSY;FBTYPE=BUSY-TENTATIVE:20090711T050000Z/20090712T050000Z
 END:VFREEBUSY
 END:VCALENDAR
-ENDCAL
+      ENDCAL
   @free_busy = cal.first.freebusys.first
   end
 
@@ -165,9 +165,9 @@ ENDCAL
   end
 end
 
-describe "a calendar including vvenue" do
-  before(:each) do
-    @cal_string = <<ENDCAL
+      describe "a calendar including vvenue" do
+        before(:each) do
+          @cal_string = <<-ENDCAL
 BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:Upcoming Event: Film in the Park
@@ -202,7 +202,7 @@ GEO:39.546;-104.997
 URL;X-LABEL=Venue Info:http://www.hrmafestival.org
 END:VVENUE
 END:VCALENDAR
-ENDCAL
+          ENDCAL
 
   @venue_str = <<ENDVENUE
 BEGIN:VVENUE
@@ -222,7 +222,7 @@ ENDVENUE
   it "should parse without error" do
     lambda {RiCal.parse_string(@cal_string)}.should_not raise_error
   end
-  
+
   it "should export correctly" do
     export = RiCal.parse_string(@cal_string).first.export
     export.should include(@venue_str)
@@ -260,7 +260,7 @@ END:VCALENDAR)
   end
 end
 
-context "X-properties" do
+  context "X-properties" do
   it "should round-trip the X-WR-CALNAME property" do
     cal_string = %Q(BEGIN:VCALENDAR
 PRODID:-//Markthisdate.com\,0.7
@@ -274,3 +274,4 @@ END:VCALENDAR)
     end
 end
 
+end
